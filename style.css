@@ -3,7 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+.login{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 40px;
+    background-color: chartreuse;
+    border: solid red;
+    padding: 3px;
+}
+.celuEmail{
+    display: flex;
+    align-items: center;
+}
+.celu,.email{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 20px;
+    background-color: palevioletred;
+}
+.dataUser{
+    display: flex;
+    align-content: center;
+    align-items: center;
+ 
+}
+.cuenta, .sesion{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    width: 250px;
+    height: 20px;
+    background-color: floralwhite;
 
+}
 
 /* Media Query - First Mobile*/
 @media screen and (min-width: px){
